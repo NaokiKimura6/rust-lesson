@@ -1,5 +1,5 @@
-mod ownership;
+mod enums;
 
 fn main() {
-    ownership::run();
+    enums::run();
 }
