@@ -1,5 +1,5 @@
-mod stack_heap;
+mod ownership;
 
 fn main() {
-    stack_heap::run();
+    ownership::run();
 }

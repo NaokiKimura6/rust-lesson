@@ -16,6 +16,7 @@ pub fn run() {
 
     let i2: i64 = 1;
     let i3: i64 = 2;
+    // 変数の前に&を付けると、pointerを受け取る
     println!("Stack address of i2 is: {:p}", &i2);
     println!("Stack address of i3 is: {:p}", &i3);
     let a = 5;
@@ -38,9 +39,10 @@ pub fn run() {
 
     let mut t2 = ((0, 1), (2, 3));
     let ((ref mut t01, ref mut t02), _) = t2;
+    // 「*」は参照(ref)外し
     *t01 = 4;
     *t02 = 5;
-    println!("{:?}", t2); // primitive出ない場合はブラケットの中に:?を記載
+    println!("{:?}", t2); // primitiveでない場合はブラケットの中に:?を記載
 
     let a1 = [1, 2, 3, 4, 5];
     let a2 = [0; 10];
