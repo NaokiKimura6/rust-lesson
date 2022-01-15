@@ -1,5 +1,5 @@
-mod enums;
+mod traits;
 
 fn main() {
-    enums::run();
+    traits::run();
 }
