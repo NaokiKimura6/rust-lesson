@@ -1,5 +1,3 @@
-mod enums;
+mod unit_test;
 
-fn main() {
-    enums::run();
-}
+fn main() {}
