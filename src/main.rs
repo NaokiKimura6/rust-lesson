@@ -1,3 +1,5 @@
-mod unit_test;
+extern crate lib_demo;
 
-fn main() {}
+fn main() {
+    lib_demo::print_random_number();
+}
