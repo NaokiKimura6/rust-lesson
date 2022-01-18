@@ -1,5 +1,3 @@
-mod traits;
+mod unit_test;
 
-fn main() {
-    traits::run();
-}
+fn main() {}
